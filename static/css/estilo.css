@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+body
+{
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* formatacao interface*/
+div#interface
+{
+    width: 100%;
+    max-width: 2000px;
+    background-color: white;
+    border-top: solid 1px #606060;
+}
+
+
+header#cabecalho
+{
+    width: 96%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header figure.logo
+{
+    position: absolute;
+    margin-top: 0px;
+}
+
+header p#dia
+{
+    position: absolute;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+
+
+h1#to
+{
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: -1%;
+}
+
+p#vertical
+{
+    position: absolute;
+    margin-left: -6rem;
+        width:30%;
+        height:20px;
+        font-family: glacial;
+        font-weight:normal;
+        text-shadow: 0px 0px 1px #333;
+        -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9;
+}
+
+
+@media (max-width: 991px) {
+p#vertical
+{
+    margin-left: auto;
+    margin-top: 4rem;
+    font-family: glacial;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 2.5em; color: #fffdd9;
+}
+}
+
+header p#nos
+{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    left: 300px;
+}
+
+div#center
+{
+    width: 96%;
+    height: 1200px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid black;
+}
+
+
+div#div_video
+{
+    width: 100%;
+    max-width: 1920px;
+    height: 620px;
+    border: 30px solid orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  div#div_video
+    {
+        width: 100%;
+        max-width: 1920px;
+        height: 420px;
+        border: 30px solid orange;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+
+
+    
+}
+
+@media (max-width: 575px) {
+    .navbar-brand{
+        margin-left: 25% !important;
+        margin-bottom: 2rem;
+    }
+}
+
+video#video
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+div#div_content
+{
+    width: 96%;
+    height: 1000px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+}
+
+
+div#div_content h1
+{
+    font-size: 2em;
+}
+
+
+div#div_content h2
+{
+    font-size: 1.0em;
+}
+
+
+div#left
+{
+    width: 350px;
+}
+
+
+table#table_form
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+table#table_form tr td
+{
+    height: 40px;
+}
+
+
+table#table_form input.field
+{
+    width: 100%;
+    height: 40px;
+    font-size: 1.1em;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: none;
+    border-bottom: 1px solid #606060;
+}
+
+table#table_form input.circles
+{
+    width: 20px;
+    height: 20px;
+    font-size: 1.1em;
+}
+
+
+table#table_form input#submit
+{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #606060;
+    background-color: transparent;
+}
+
+/*Div Rigth*/
+
+div#right
+{
+    width: 60%;
+}
+
+div#right
+{
+    display: block;
+    position: relative;
+    float: right;
+    top: -418px;
+}
+
+p#texto
+
+{
+  text-align: center;
+}
+
+
+div#patrocinio
+{
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+}
+
+
+div#patrocinio p, h1, h2
+{
+    text-align: center;
+}
+
+
+
+footer#footer
+{
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+}
+
+div.copyright p
+{
+    color: aliceblue;
+}
+
+nav#menu h1
+{
+   display: none;
+}
+
+
+
+nav#menu li
+{
+  display: inline-block;
+}
+
+
+nav#menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+nav#menu ul
+{
+    display: block;
+    position: absolute;
+    left: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bola {
+    width:300px;
+    height:100px;
+    background-color:#666;
+    border-radius: 10px 20px;
+}
+
+.bola
+{
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#linha {
+    width: 20%;
+    border-bottom: 3px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*----------------ajustes------------*/
+
+.fa-file-pdf-o{
+    color: red;
+}
+
+
+

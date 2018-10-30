@@ -1,0 +1,106 @@
+.page-color{
+  background-color: #1ac56c;
+}
+.shadow-box{
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4) !important;
+}
+
+.nomargin {
+    margin: -2px !important;
+ }
+
+ .nomargin-height {
+    margin-top: -2px !important;
+        margin-bottom: -2px !important;
+ }
+  .nopading {
+      padding: 0 !important;
+  }
+
+  .pading-width-c{
+      padding: 0rem 0.9375rem 0rem 0.9375rem;
+  }
+
+  .margin-width-c{
+    margin: 0rem 0.9375rem 0rem 0.9375rem;
+    }
+
+.full-height{
+    height: 100vh;
+}
+
+
+.n-lado-right{
+	float: right !important;
+}
+
+.n-lado-left{
+	float: left;
+}
+
+
+.posi-absulute{
+	position: absolute;
+	margin-left: 90%;
+}
+
+/*aside*/
+@media (max-width: 991.98px) {
+    aside{
+        display: none;
+    }
+}
+
+aside{
+    background-color: #fff;
+    
+
+}
+
+
+
+
+/*forms*/
+form.nelzio-form .form-group input{
+    border-bottom: solid 3px rgba(0, 0, 0, .4);
+    background-color: transparent;
+    border-radius: 0 0 0 0;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+    color: #000;
+    font-size: 20px;
+}
+
+form.nelzio-form .form-group input:focus{
+    box-shadow: none;
+    border-bottom: solid 3px rgba(0, 0, 0, .6);
+}
+
+
+form.nelzio-form .form-group select{
+    border-bottom: solid 3px rgba(0, 0, 0, .4);
+    background-color: transparent;
+    border-radius: 0 0 0 0;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+    color: #000;
+    font-size: 20px;
+    height: 45px;
+}
+
+form.nelzio-form .form-group select:focus{
+    box-shadow: none;
+    border-bottom: solid 3px rgba(0, 0, 0, .6);
+}
+
+/*
+form.nelzio-form .form-group button{
+    border-radius: 0 0 0 0;
+}
+
+form.nelzio-form .form-group label{
+    font-size: 18px;
+    text-transform: uppercase;
+}*/
