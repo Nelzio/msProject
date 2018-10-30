@@ -1,0 +1,10 @@
+.idea
+.vscode
+myvenv
+db.dzudza
+db.dzudza1
+db.dzudza3
+db.sqlite3
+*pyc
+.directory
+media
