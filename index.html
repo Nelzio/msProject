@@ -35,8 +35,8 @@
 	<div class="main-container container-fluid">
 
 
-        <div class="mb-5 container-fluid" id="video">
-        	<p class="fa fa-rotate-270 posi-absulute">2018</p>
+        <div class="mb-5 container-fluid">
+        	<!--<p class="fa fa-rotate-270 posi-absulute">2018</p>-->
             <div class="row">
         		
                 <div class="col-md-12">
@@ -45,8 +45,8 @@
                        <h1 id="to">Design.</h1>
                        <div id="div_video">
                        	<p class="fa fa-rotate-270" id="vertical">Develop.</p>
-                            <video id="video" controls="controls" poster="static/img/Play%20Icon.png">
-                            <source src="Heavy%20C%20Vídeo%20A%20única%20-%20YouTube.MP4" type="video/mp4">
+                            <video id="video" class="" controls="controls" poster="static/img/Play%20Icon.png">
+                            <source src="static/videos/Video promo1_1.mp4" type="video/mp4">
 
                             </video>
                        </div>
@@ -81,17 +81,14 @@
 
                 <div class="col-12 col-md-6" style="float: left !important;">
                     <h3>Workshop<br>inscreva-te</h3>
-                    <form class="nelzio-form" action="index_submit" method="POST" accept-charset="utf-8">
-
+                    <form class="nelzio-form" action="contact/index.php" method="POST" accept-charset="utf-8">
                        <div class="form-row">
                            <div class="col-12 form-group">
-                               <input class="form-control" type="text" id="f_name" name="name" placeholder="Nome completo" maxlength="100" size="60"/>
+                               <input class="form-control" type="text" id="f_name" name="name" placeholder="Nome completo" maxlength="100" size="60" name="name"/>
                            </div>
-
                            <div class="col-12 form-group">
-                               <input class="form-control" type="email" id="f_email" name="name" placeholder="E-mail" />
+                               <input class="form-control" type="email" id="f_email" name="email" placeholder="E-mail" />
                            </div>
-
                            <div class="col-12 form-group">
                                <select class="form-control" name="sexo" >
                                    <option value="masculini">Masculino</option>
@@ -101,21 +98,20 @@
                        </div>
                        <div class="row mb-2">
                        	<div class="col-12 col-md-6">
-                       		<input class="circles" id="check" type="checkbox"/>&nbsp; <label for="check">Eu aceito os termos de privacidade</label>
+                       		<input class="circles" id="check" type="checkbox" name="termos"/>&nbsp; <label for="check">Eu aceito os termos de privacidade</label>
                        	</div>
                        	<div class="col-12 col-md-6">
                        		<p>Programa do workshop. 
-                       		<a href="static/img/522x5j.pdf" target="_blank">Clique aqui. <i class="fa fa-file-pdf-o"></i></a>
+                       		<a href="static/img/522x5j.pdf" target="_blank">
+                       			Clique aqui. 
+                       			<i class="fa fa-file-pdf-o"></i>
+                       		</a>
                        		</p>
                        	</div>		
-                       </div>
-                       
-                       
-                       <div class="form-group">
+                    	</div>
+                    	<div class="form-group">
                            <button type="submit" class="btn btn-primary form-control">Enviar</button>
                        </div>
-
-
                     </form>
 
 
@@ -127,8 +123,11 @@
 
         <div class="container" style="height: unset;">
             <p id="linha"></p>
-            <h1 class="bola">Patrocinadores</h1>
-
+            <div class="row justify-content-md-center">
+				    <div class="col-md-4 col-12">
+				      <h1 class="bola">Patrocinadores</h1>
+				    </div>
+            </div>
             <div id="patrocinio" style="height: unset;">
                 <p>
                     <a href="#"><img src="static/img/Asset%2011@100x.png"  width="100px"  alt="Movitel"/> </a>
